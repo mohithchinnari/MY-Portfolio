@@ -1,0 +1,504 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    background-color:rgb(33, 43, 156,.3);
+    font-size: 112.5%;
+    color:black;
+}
+footer{
+    height: 20vh !important;
+}
+header{
+    display:block;
+    padding-bottom: 0.7%;
+    background-color:rgb(1, 9, 54,0.8);
+    padding-top: 0.5%;
+    width: 100vw;
+    border: none !important;
+    height: 90vh;
+    padding-left: 0px;
+}
+
+.aside1{
+    display: inline;
+    float: left;
+    height: 35vh;
+    width: 20vw;
+    text-align: left;
+}
+.myself{
+    height: 38vh;
+    text-align:center;
+    line-height:3vh;
+}
+.aside2{
+    display: inline;
+    float: left;
+    height: 95vh;
+    width: 20vw;
+    text-align: left;
+}
+.white{
+    color: white;
+}
+.aside3{
+    display: inline;
+    float: left;
+    height: 40vh;
+    width: 20vw;
+    text-align: left;
+}
+content{
+    height: 50vh;
+    width: auto;
+    display: inline;
+}
+.content3{
+    height: 50vh;
+    width: 100vw;
+    display: inline;
+    
+}
+.content2{
+    height: 75vh;
+    width: auto;
+    display: inline;
+    padding-bottom: 20vh;
+}
+.head_pro{
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: left;
+    text-decoration: underline;
+}
+.head_pro dd{
+    margin-left: 5vw;
+}
+.navi{
+    display: inline;
+    padding: 0.5%;
+    margin-right: 0.7%;
+    padding-right: 1.5%;
+}
+a{
+    text-decoration: none;
+    color: bisque;
+}
+nav{
+    text-align:right ;
+}
+img{
+    height: 35%;
+    width: 15%;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.3);
+    border-radius: 2vw;
+    overflow: hidden;
+}
+
+.intro{
+    display:block;
+    width: 100vw;
+    height: 85vh;
+    text-align: center;
+    background-image: webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.8))), url(../img/800px_COLOURBOX23310792.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../img/800px_COLOURBOX23310792.jpg);
+    background-size: 90vw;
+}
+
+.intro img{
+    margin-bottom: 10vh;
+}
+.content{
+    width: 50vw;
+    margin-left: 25%;
+}
+.para{
+    width: 50vw;
+    margin-left: 25%;
+}
+.project_para{
+    width: 60vw;
+    margin-left: 27%;
+    margin-bottom: 5vh;
+}
+.btn_project{
+    margin-bottom: 5vh;
+}
+.content{
+    display: inline;
+    width: 70%;
+}
+.heading1{
+    margin-top: 10vh;
+}
+.cont_head{
+    font-weight: bold;
+}
+.cont_head_pro{
+    font-weight: bold;
+    padding-left: 0.5%;
+}
+.logo{
+    color: azure;
+    text-decoration: none;
+}
+.portfolio{
+    float: left;
+    font-weight: bold;
+    font-size: 100%;
+    text-decoration: none;
+}
+a:link,a:visited{
+    color: whitesmoke;
+}
+a:hover{
+    color: rebeccapurple;
+}
+
+
+h6{
+    text-align: right;
+}
+li img{
+    height: 4.5vh;
+    width: 2.5vw;
+    border: none;
+    padding-right: 2vw;
+}
+/* ...................................Button................................. */
+.resume_btn{
+    padding: 1vw 2vw;
+    border: 2px solid #ffc107;
+    background-color: transparent;
+    border-radius: 5vw;
+    margin-top: 5vh;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 0.5vw;
+    line-height: 140%;
+    font-size: 112%;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    color: #ffc107;
+}
+.resume_btn:hover,
+.resume_btn:active {
+    border-color:orangered;
+    font-size: 110%;
+    
+}
+div a{
+    color: #ffc107;
+}
+/*....................................... arrow .............................*/
+
+.arrow{
+    position: absolute;
+    top: 92%;
+    left: 50.5%;
+    transform: translate(-50%, -50%);
+}
+
+.arrow span{
+    display: block;
+    width: 2vw;
+    height: 4vh;
+    border-bottom: 4px solid #ffc107;
+    border-right: 4px solid #ffc107;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: scroll 2s linear infinite;
+}
+
+.arrow span:nth-child(2){
+    animation-delay: .2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: .4s;
+}
+@keyframes scroll{
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+}
+
+/* .......................Hamburger................................. */
+
+#menu{
+    width: 35px;
+    height: 30px;
+    margin: 30px 0px 20px 20px;
+    cursor: pointer;
+}
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color: #ffc107;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: 0.7s ease;
+}
+#bar1{
+    transform: translate(-4px);
+}
+#bar3{
+    transform: translate(-4px);
+}
+.change .bar{
+    background-color: azure;
+}
+.change #bar1{
+    transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar3{
+    transform: translateY(-6px) rotateZ(45deg);
+}
+.change #bar2{
+    opacity: 0;
+}
+.naviga li a{
+    color: #fff;
+    text-decoration: none;
+}
+.naviga li{
+    list-style: none;
+    padding: 16px 0px;
+}
+naviga{
+    padding: 0;
+    margin: 0 20px;
+    transition: 0.7s ease;
+}
+
+/*......................... Mobile Responsive............................ */
+/* ....................................................................... */
+
+@media(max-width:500px){
+    body{
+        width: 100vw;
+        margin: 0px !important;
+    }
+    div h1{
+        font-size: 137%;
+    }
+    div h3{
+        font-size: 80%;
+    }
+    div img{
+        height: 22vh;
+        width: 38vw;
+        margin-top: 5vh;
+    }
+    header{
+        height: 90vh !important;
+        border: none !important;
+    }
+    header.top_heading{
+        border: none !important;
+    }
+    nav{
+        height: 7vh !important;
+    }
+    .arrow{
+        position: absolute;
+        top: 85%;
+        left: 50;
+        transform: translate(-50%, -50%);
+    }
+    .arrow span{
+        display: block;
+        width: 5.5vw;
+        height: 3vh;
+        border-bottom: 2.7px solid #ffc107;
+        border-right: 2.7px solid #ffc107;
+        transform: rotate(45deg);
+        margin: -10px;
+        animation: scroll 2s linear infinite;
+    }
+    /* ...............myself....................... */
+    .myself{
+        height: 50vh;
+        font-size: 18px;
+        text-align: center;
+        margin-left: 2vw;
+        margin: 0px;
+        padding: 0px;
+    }
+    .para{
+        width: 90vw;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .cont_head{
+        width: 90vw !important;
+    }
+
+    /* ..................PROJECTS...................... */
+
+    .aside2{
+        display: block;
+        width: 100vw;
+        height: 45vh;
+    }
+    .aside2 img{
+        width: 95vw !important;
+        height: 20vh;
+        margin-top: 2vh;
+        display: block;
+        margin-bottom: 5vh;
+        float: none;
+    }
+    aside.aside2{
+        width: 90vw;
+    }
+    .content ul{
+        margin-left: 0vw !important;
+        width: 100vw;
+        height: 100vh;
+        margin-left: 0px !important;
+        margin-top: 0px !important;
+    }
+    ul .p_r{
+        display: block;
+    }
+    .project_para{
+        width: 90vw;
+        margin-left:2vh !important;
+        margin-bottom: 5vh;
+        display: block;
+        margin-top: 5vh;
+        font-size: 18px;
+        margin-right: 2vh;
+        padding-left: 0px;
+        height: 22vh;
+    }
+    .p_r a{
+        margin-bottom: 10vh !important;
+    }
+    p.white.project_para{
+        margin-right: 0px;
+    }
+    div .heading1{
+        font-size: 22px;
+        margin-top: 5vh;
+    }
+    .extra{
+        height: 42vh !important;
+    }
+    .btn_size{
+        font-size: 16px;
+    }
+
+    /* ...............................INTERNSHIP.................... */
+
+    .internship_content{
+        height: 100vh;
+        display: block !important;
+    }
+    .aside3 img{
+        display: none;
+    }
+    .aside3{
+        width: 100vw;
+        height: 15vh !important;
+    }
+    .cont_head{
+        display: block;
+        width: 100vw;
+    }
+    .content3{
+        display: block;
+        float: none;
+    }
+    .space_up{
+        margin-bottom: 5vh;
+        align-items: center;
+        font-size: 18px;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    /* ....................Footer........................ */
+    footer{
+        width: 97vw;
+        height: 70vh !important;
+        display: flex;
+        flex-direction: column;
+    }
+    .copyright{
+        margin-bottom: 0px;
+        margin-top:0px;
+    }
+    footer dt{
+        text-align: left !important;
+    }
+    .footer_ul li{
+        display: inline !important;
+        margin-left: 0px;
+        float: left !important;
+    }
+    ul.footer_ul{
+        margin: 0px !important;
+        padding:0px !important;
+    }
+        header.top-header{
+            
+            height: 50vh;
+            background-size: cover;
+            background-position-x: right;
+    
+        }
+        header.top-header div.container h1{
+            font-size: 25px;
+        }
+        header.top-header div.container p{
+            font-size: 20px;
+        }
+        header.top-header div.container a.button{
+            font-size: 16px;
+        }
+        
+        header.top-header nav ul li{
+            display: none;
+        }
+        header.top-header nav ul li.dropDownIcon{
+            display: block;
+            position: absolute;
+        }
+    
+        header.top-header nav ul.topnav.responsive{
+            position: absolute;
+            background-color: rgba(0, 0, 0, 1);
+            width: 100vw;
+            height: 50vh;
+            padding: 10px;
+            color: #ffc107;
+        }
+    
+        header.top-header nav ul.topnav.responsive li.dropDownIcon{
+            float: left;
+        }
+    
+        header.top-header nav ul.topnav.responsive li{
+            display: block;
+            float:none;
+        }
+        .about-container div.matter,div.vector-img{
+            width: 100%;
+            text-align: center;
+        }
+
+    /* ...........................HUMBURGER................................ */
+    
+}
+
+/* ...................................... */

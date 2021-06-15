@@ -1,0 +1,133 @@
+.resume_btn{
+    padding: 1vw 2vw;
+    border: 2px solid #ffc107;
+    background-color: black;
+    border-radius: 5vw;
+    margin-top: 5vh;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 0.5vw;
+    line-height: 140%;
+    font-size: 112%;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    color: #ffc107;
+}
+.resume_btn:hover,
+.resume_btn:active {
+    border-color:orangered;
+    font-size: 110%;  
+}
+.resume_btn a{
+    color: #ffc107;
+    background-color: black;
+}
+
+.project1{
+    text-align: center;
+    text-decoration: underline;
+    padding-right: 80px;
+    font-size: 35px;
+    padding-bottom: 10px;
+    bottom: 600px;
+}
+embed{
+    padding-left: 130px;
+    width: 50%;
+    height:800px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.sidenav{
+    text-decoration: none;
+    color: white;
+    background-color:rgba(252,202,3,0.9);
+    height: 230vh;
+    width: 14vw;
+    padding-left: 0px;
+    margin-left: 0px;
+    float: left;
+}
+.sidenav nav{
+    position: fixed;
+    text-align: center;
+    margin-left: 2vw;
+}
+h2{
+    padding-left: 50px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.main{
+    width: 80vw;
+}
+.report{
+    padding-top: 5vh;
+    text-decoration: underline;
+    text-align: center;
+}
+.ppt embed{
+    height: 48vh;
+    width: 50%;
+}
+
+.cnn{
+    display: block;
+    text-align: center;
+    padding-bottom: 4vh;
+    padding-top: 1vh;
+    color: white;
+}
+
+.main{
+    float: right;
+    bottom: 500px;
+}
+
+@media(max-width:500px){
+    header{
+        display: none;
+    }
+    .sidenav{
+        display: none;
+    }
+    .main h1{
+        font-size: 21px;
+        text-align: center;
+        margin-left: 0vw;
+    }
+    .main h2{
+        font-size: 20px;
+    }
+    .main{
+        width:100vw;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .resume_btn{
+        padding: 5vw 5vw;
+        width: 50vw;
+        margin-left: 20vw;
+        margin-top: 0px;
+    }
+    div.ppt embed{
+        margin: 0px;
+        padding: 0px;
+        width: 70vw;
+        height: 20vh;
+    }
+    div.report embed{
+        margin: 0px;
+        padding: 0px;
+        width: 60vw;
+        height: 35vh !important;
+    }
+    .ppt{
+        width: 90vw;
+        margin-left: 5vw;
+    }
+}

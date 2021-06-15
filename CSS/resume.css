@@ -1,0 +1,15 @@
+@media(max-width:500px){
+    div embed{
+        width: 98vw !important;
+        margin: 0px;
+        padding: 0px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    nav{
+        height: 5vh;
+    }
+}

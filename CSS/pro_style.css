@@ -1,0 +1,157 @@
+.project1{
+    text-align: center;
+    text-decoration: underline;
+    /* padding-right: 80px; */
+    font-size: 35px;
+    padding-bottom: 10px;
+    bottom: 600px;
+}
+embed{
+    padding-left: 130px;
+    width: 50%;
+    height:800px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.sidenav{
+    text-decoration: none;
+    color: white;
+    background-color:rgba(252,202,3,0.9);
+    height: 350vh;
+    width: 13vw;
+    padding-left: 0px;
+    margin-left: 0px;
+    float: left;
+}
+.main{
+    margin-right: 5vw;
+}
+.sidenav nav{
+    position: fixed;
+    text-align: center;
+    margin-left: 2vw;
+}
+h2{
+    padding-left: 50px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.report{
+    margin-top: 5vh;
+    padding-bottom: 0px;
+    text-decoration: underline;
+    text-align: center;
+}
+.ppt embed{
+    height: 50vh;
+    width: 40vw;
+}
+.certi embed{
+    height: 100vh;
+    width: 50%;
+}
+.cnn{
+    display: block;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    color: white;
+}
+.cnn_report{
+    padding-top: 5vhpx;
+}
+.main{
+    float: right;
+    bottom: 500px;
+}
+.resume_btn{
+    padding: 1vw 2vw;
+    border: 2px solid #ffc107;
+    background-color: black;
+    border-radius: 5vw;
+    margin-top: 5vh;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 0.5vw;
+    line-height: 140%;
+    font-size: 112%;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    color: #ffc107;
+}
+.resume_btn:hover,
+.resume_btn:active {
+    border-color:orangered;
+    font-size: 110%;  
+}
+
+/* ........................................... */
+
+@media(max-width:500px){
+    header{
+        display: none;
+    }
+    .sidenav{
+        display: none;
+    }
+    .main h1{
+        width: 90vw;
+        font-size: 21px;
+        text-align: center;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: 5vh;
+        padding: 0px;
+    }
+    .main h2{
+        font-size: 20px;
+        padding: 0px;
+        margin-left: 10vw;
+    }
+    .main{
+        width:100vw;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .resume_btn{
+        padding: 5vw 5vw;
+        width: 50vw;
+        margin-left: 20vw;
+        display: block;
+    }
+    h2.repo{
+        margin-bottom: 2vh;
+    }
+    div.ppt embed{
+        margin: 0px;
+        padding: 0px;
+        padding-top: 1vh;
+        width: 70vw;
+        height: 60vh;
+        margin-top: 2vh;
+    }
+    div.report embed{
+        margin: 0px;
+        padding: 0px;
+        width: 80vw;
+        height: 50vh !important;
+    }
+    .ppt{
+        width: 90vw;
+        margin-left: 5vw;
+    }
+    div.certi embed{
+        margin: 0px;
+        padding: 0px;
+        width: 80vw;
+        height: 50vh;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+}
